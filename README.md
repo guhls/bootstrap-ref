@@ -1,4 +1,4 @@
-# Workspace Frameworks: Bootstrap & Tailwinnd
+# Workspace Frameworks: Bootstrap & Tailwind
 
 ## Bootstrap v4.x.x:
 - Bootstrap - Framework front-end 
