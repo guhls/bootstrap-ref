@@ -22,34 +22,40 @@
             <a href="../projetos/index2.html">index2.html</a>
         </div>
 
-        <div id="content" class="">
-            <header class="clearfix">
-    
-                <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-                    <div>
-                        <a href="#" class="navbar-brand">ATESP</a>
-                        <p class="text-light">Transporte escolar de SP</p>
-                    </div>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Rotas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Escolas</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-5">
+            <!--Logo-->
+            <a href="#" class="navbar-brand">Uniescolar</a>
 
-            <section>
-                <article id="">
-                    <p class="text-center">Veja as Escolas Parceiras</p>
-                </article>
-            </section>
-        </div>
+            <!--Botão-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav_content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Navegação-->
+            <div class="collapse  navbar-collapse" id="nav_content">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Rotas</a>
+
+                        <!--Menu-->
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">São Paulo</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Região Norte</a>
+                            <a href="#" class="dropdown-item">Região Oeste</a>
+                            <a href="#" class="dropdown-item">Região Leste</a>
+                            <a href="#" class="dropdown-item">Região Sul</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
     </main>
   
